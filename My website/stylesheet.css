@@ -75,10 +75,7 @@ nav a:hover, a:active {
 	}
 
 .caption {
-    font-size: 0.7em;
-    text-align: right;
-    margin-top: 0;
-    font-style: italic;
+    color: white;
 	}
 
 #footer {
@@ -163,6 +160,15 @@ article:last-of-type {
 		nav {
 			order: 2;
 		}
+
+		.card-container {
+		        flex-flow: row;
+		        flex-wrap: wrap;
+		        justify-content: space-between;
+		    }
+		.card {
+		        width: 45%;
+		    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -203,13 +209,13 @@ article:last-of-type {
   }
 
 	.card-container {
-	        flex-flow: row;
-	        flex-wrap: wrap;
-	        justify-content: space-between;
-	    }
+					flex-flow: row;
+					flex-wrap: wrap;
+					justify-content: space-between;
+			}
 	.card {
-	        width: 45%;
-	    }
+					width: 30%;
+			}
 }
 
 /*@media screen and (min-width:1200px) {
