@@ -172,7 +172,7 @@ article:last-of-type {
         border-top: none;
     }
 
-    .menu-trigger {
+  .menu-trigger {
         visibility: hidden;
     }
 
@@ -228,7 +228,7 @@ article:last-of-type {
 	grid-area: g;
 }
 
-@media screen and (min-width: 1000px) {
+/*@media screen and (min-width: 1000px) {
   article {
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
@@ -273,16 +273,4 @@ article:last-of-type {
 	.card {
 					width: 30%;
 			}
-}
-
-/*@media screen and (min-width:1200px) {
-  article {
-    display: grid;
-    grid-template-columns: 200px 1fr 1fr 200px;
-    grid-gap: 20px;
-    grid-template-areas:
-        "a b b e"
-        "c c c ."
-        ". d d .";
-  }
 }*/
