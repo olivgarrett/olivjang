@@ -20,13 +20,13 @@ h2 {
 	font-size: 2em;
 }
 
-h3{
+h3 {
 	font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	color: #2A85A8;
 	font-size: 2em;
 }
 
-h4{
+h4 {
 	font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	color: #1D5C75;
 	font-size: 1.5em;
@@ -54,7 +54,7 @@ header {
 }
 
 .container {
-	padding-top: 60px;
+	padding-top: 100px;
 }
 
 .menu-trigger {
@@ -83,7 +83,6 @@ a:link, a:visited {
 
 a:hover, a:active {
 		color: #87D6F5;
-    text-decoration: underline;
 		font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 	}
 
@@ -91,17 +90,25 @@ a:hover, a:active {
     color: white;
 	}
 
-#footer {
-    color: #2A85A8;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+footer p{
+		background-color: #1D5C75;
+		color: #87D6F5;
+    font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
 		font-style: italic;
 		font-size: 0.8em;
-    border-top: 1px solid #1D5C75;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin: 0;
+		text-align: center;
 }
 
 .picturebox img {
-	display: none;
+	width: 100%;
 	border-radius: 50%;
+	max-width: 344px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
 }
 
 article {
