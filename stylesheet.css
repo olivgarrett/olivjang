@@ -4,6 +4,11 @@
     color: red;
 }*/
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
 p {
 	color: #2A85A8;
     font-family:"Merriweather Sans", Helvetica, Arial, sans-serif;
@@ -55,6 +60,8 @@ header {
 
 .container {
 	padding-top: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .menu-trigger {
@@ -182,7 +189,14 @@ article:last-of-type {
 
     nav ul {
         display: flex;
+				justify-content: flex-end;
+				margin-right: 30px;
     }
+
+		header {
+			justify-content: space-between;
+			align-items: flex-end;
+		}
 
     nav ul li {
         border-top: none;
