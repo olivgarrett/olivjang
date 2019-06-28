@@ -17,39 +17,55 @@
 <!--This is a comment. It won't show up in your browser, only in the page source-->
 <header>
     <h1>Olivia J. Garrett</h1>
-<nav id="container">
-  <a class="menu-trigger" href="#">&#9776;<a/>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="contact.html">Contact Me</a></li>
-  </ul>
-</nav>
+    <nav id="container">
+      <a class="menu-trigger" href="#">&#9776;<a/>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Portfolio</a>
+              <div class="dropdown-content">
+                  <a href="writing.html">Reporting</a>
+                  <a href="design.html">Design</a>
+                  <a href="social.html">Social</a>
+              </div>
+            </li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
 </header>
-<div class="flex-wrapper">
-<div class="container">
-  <h2>Hello! My name is Olivia.</h2>
-<article>
 
-  <section class="picturebox">
-	 <img src="Images/Olivia.jpg" alt="a picture of me"/>
-  </section>
-  <section class="section1">
-    <p>I’m a student at the University of Missouri working on a dual-degree in investigative journalism and political science with a minor in Spanish.</p>
-    <p>I'm graduating in December 2019. After graduation, I hope to work for a print or digital news organization. Writing is my main passion, but I also enjoy photography and design. I built this portfolio website using HTML, CSS and JavaScript.</p>
-    <p>I’m currently working as an assistant city editor at the Columbia Missourian, a community newspaper in Columbia, Missouri. In this role, I help coach beginning reporters and edit their stories.</p>
-    <p>Previously, I reported for the community and education beats at the Missourian. I've covered everything from the local school board to Missouri tourism. During the spring, I wrote fact-checks for PolitiFact Missouri. This past fall, I was an intern at POLITICO Europe in Brussels, Belgium. There, I primarily worked on the production desk, crafting social media posts and designing pages for the print edition. I was also a beat reporter and editor on the university news section at the Maneater, MU’s student newspaper.</p>
-  
-  </section>
-</article>
-<!--<h3>Reporting</h3>
-<p><a href="https://www.politifact.com/missouri/statements/2019/feb/20/jason-smith/federal-workers-are-paid-more-average-southern-mis/" class="link">Federal workers are paid more than the average southern Missourian</a></p>
-<h3>Design</h3>
-<h3>Social</h3>-->
-</div>
-<footer>
-  <p>Designed by Olivia Garrett 2019.</p>
-</footer>
-</div>
+<div class="flex-wrapper">
+  <div class="container">
+<!--<div class="me">
+    <img src="Images/Olivia.jpg">
+  </div>-->
+  </br>
+    <article>
+        <section class="section1">
+          <p>I’m a student at the University of Missouri working on a dual-degree in investigative journalism and political science with a minor in Spanish.</p>
+          <p>I'm graduating in December 2019. After graduation, I hope to work for a print or digital news organization. Writing is my main passion, but I also enjoy photography and design. I built this portfolio website using HTML, CSS and JavaScript.</p>
+          <p>I’m currently working as an assistant city editor at the Columbia Missourian, a community newspaper in Columbia, Missouri. In this role, I help coach beginning reporters and edit their stories.</p>
+          <p>Previously, I reported for the community and education beats at the Missourian. I've covered everything from the local school board to Missouri tourism. During the spring, I wrote fact-checks for PolitiFact Missouri. This past fall, I was an intern at POLITICO Europe in Brussels, Belgium.</p>
+        </section>
+        <section class="icon1">
+          <h2>Reporting</h2>
+          <a href="writing.html"><img src="Images/writing.png" alt="writing"/></a>
+        </section>
+        <section class="icon2">
+          <h2>Design</h2>
+          <a href="design.html"><img src="Images/design.png" alt="design"/></a>
+        </section>
+        <section class="icon3">
+          <h2>Social Media</h2>
+          <a href="social.html"><img src="Images/social.png" alt="social"/></a>
+        </section>
+        <section class="places">
+        </section>
+      </article>
+    </div>
+    <footer>
+      <p>Designed by Olivia Garrett 2019.</p>
+    </footer>
+  </div>
 </body>
