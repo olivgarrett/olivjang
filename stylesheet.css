@@ -70,7 +70,7 @@ header {
 .me img{
 	display: block;
 	width: 100%;
-	max-width: 400px;
+	max-width: 4px;
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -83,6 +83,7 @@ header {
 	min-height: 100vh;
 	flex-direction: column;
 	justify-content: space-between;
+	padding-top: 10px;
 }
 
 .menu-trigger {
@@ -236,12 +237,9 @@ article:last-of-type {
 }
 
 .card {
-    border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid #1D5C75;
     padding: 0;
     margin-bottom: 20px;
-		background-color: #2A85A8;
 }
 
 .card p {
