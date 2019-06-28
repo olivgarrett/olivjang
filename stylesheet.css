@@ -70,12 +70,14 @@ header {
 .me img{
 	display: block;
 	width: 100%;
-	max-width: 4px;
+	max-width: 400px;
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 20px;
 }
+
+
 
 }
 .flex-wrapper {
@@ -122,7 +124,7 @@ a:hover, a:active {
 footer p{
 		border-top: 8px #1D5C75;
 		color: #2A85A8;
-    	font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
 		font-style: italic;
 		font-size: 0.8em;
 		padding: 5px;
@@ -136,7 +138,10 @@ footer p{
 	max-width: 200px;
 	margin-left: auto;
 	margin-right: auto;
-	float: none;
+	float: center;
+}
+
+.icon1 {
 	text-align: center;
 }
 
@@ -146,8 +151,11 @@ footer p{
 	max-width: 200px;
 	margin-left: auto;
 	margin-right: auto;
-	float: none;
-		text-align: center;
+	float: center;
+}
+
+.icon2 {
+	text-align: center;
 }
 
 .icon3 img {
@@ -156,8 +164,11 @@ footer p{
 	max-width: 200px;
 	margin-left: auto;
 	margin-right: auto;
-	float: none;
-		text-align: center;
+	float: center;
+}
+
+.icon3 {
+	text-align: center;
 }
 
 .icon4 img {
@@ -209,15 +220,6 @@ max-width: 200px;
 	width: 100%;
 	max-width: 350px;
 	float: none;
-}
-
-article {
-  margin-bottom: 0.7em;
-  border-bottom: 1px solid #ccc;
-}
-
-article:last-of-type {
-  border-bottom: none;
 }
 
 .card-container {
@@ -283,6 +285,12 @@ li.dropdown {
 
 
 @media screen and (min-width: 700px){
+
+	.me img {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
 
 	.card-container {
 					flex-flow: row;
@@ -367,19 +375,28 @@ li.dropdown {
 }
 */
 
-article {
+.back {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
 	grid-template-areas:
-			"b b b"
-			"c d e"
-			"f f f"
-}
+			"a b b"
 
+}			.me {
+				grid-area: a;
+			}
 
-.section1 {
-	grid-area: b;
+			.section1 {
+				grid-area: b;
+			}
+
+.bottom {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	grid-template-areas:
+	"c d e"
+	"f f f"
 }
 
 .icon1 {
