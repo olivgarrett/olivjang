@@ -66,6 +66,10 @@ header {
 	margin-right: 10px;
 }
 
+.graphic img{
+	width: 100%;
+	max-width: 400px;
+}
 .me img{
 	display: block;
 	width: 100%;
