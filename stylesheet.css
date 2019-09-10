@@ -1,8 +1,4 @@
-/*styles go here*/
-
-/*p {
-    color: red;
-}*/
+/*Basics*/
 
 body {
 	margin: 0;
@@ -66,34 +62,6 @@ header {
 	margin-right: 10px;
 }
 
-.graphic img{
-	width: 100%;
-	max-width: 400px;
-}
-.me img{
-	display: block;
-	width: 100%;
-	max-width: 400px;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 20px;
-}
-
-.flex-wrapper {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.menu-trigger {
-    order: 1;
-    font-size: 2.4em;
-    width: 2em;
-		margin-left: 5px;
-}
-
 header h1 {
     order: 2;
     font-size: 2em;
@@ -119,33 +87,98 @@ a:hover, a:active {
 		font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 	}
 
-a.proud:link, a.proud:visited {
-			color: #3DC1F5;
-			padding: none;
-	    text-decoration: underline;
-	   	font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+	.menu-trigger {
+	    order: 1;
+	    font-size: 2.4em;
+	    width: 2em;
+			margin-left: 5px;
 	}
 
-a.proud:hover, a.proud:active {
-			color: #1D5C75;
-			font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+	a.proud:link, a.proud:visited {
+				color: #3DC1F5;
+				padding: none;
+		    text-decoration: underline;
+		   	font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 		}
 
+	a.proud:hover, a.proud:active {
+				color: #1D5C75;
+				font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+			}
+
+			footer p{
+					border-top: 8px #1D5C75;
+					color: #2A85A8;
+			    font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+					font-style: italic;
+					font-size: 0.8em;
+					padding: 5px;
+					text-align: right;
+					margin: 0;
+					}
+
+					li a, .dropbtn {
+					  display: block;
+					  color: white;
+					  text-align: center;
+					  text-decoration: none;
+					}
+
+					li.dropdown {
+					  display: block;
+					}
+
+					.dropdown-content {
+					  display: none;
+					  position: absolute;
+					  min-width: 160px;
+					  z-index: 1;
+						background-color: white;
+
+					}
+
+					.dropdown-content a {
+					  color: #2A85A8;
+					  padding: 12px 16px;
+					  text-decoration: none;
+					  display: block;
+					  text-align: left;
+					}
+
+					.dropdown-content a:hover {
+						color: #1D5C75;
+					}
+
+					.dropdown:hover .dropdown-content {
+					  display: block;
+					}
+
+/*Visuals*/
+
+.graphic img{
+	width: 100%;
+	max-width: 400px;
+}
+.me img{
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.flex-wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
 .caption {
     color: white;
 	}
-
-footer p{
-		border-top: 8px #1D5C75;
-		color: #2A85A8;
-    font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
-		font-style: italic;
-		font-size: 0.8em;
-		padding: 5px;
-		text-align: right;
-		margin: 0;
-		}
 
 .icon1 img {
 	width: 100%;
@@ -259,42 +292,7 @@ max-width: 200px;
     padding: 10px;
 }
 
-li a, .dropbtn {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-li.dropdown {
-  display: block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-	background-color: white;
-
-}
-
-.dropdown-content a {
-  color: #2A85A8;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-	color: #1D5C75;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
+/*Full-Screen*/
 
 @media screen and (min-width: 700px){
 
