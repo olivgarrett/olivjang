@@ -154,11 +154,18 @@ a:hover, a:active {
 					}
 
 /*Visuals*/
-
-.graphic img{
+/*Graphics*/
+.graphic1 img{
 	width: 100%;
 	max-width: 400px;
 }
+
+.graphic2 img{
+	width: 100%;
+	max-width: 400px;
+}
+
+/*Home photo*/
 .me img{
 	display: block;
 	width: 100%;
@@ -180,6 +187,7 @@ a:hover, a:active {
     color: white;
 	}
 
+/*Icons*/
 .icon1 img {
 	width: 100%;
 	border-radius: 80%;
@@ -243,6 +251,7 @@ max-width: 200px;
 	float: none;
 }
 
+/*Publication images*/
 .pub img {
 	width: 100%;
 	max-width: 350px;
@@ -276,6 +285,7 @@ max-width: 200px;
 	margin-bottom: 20px;
 }
 
+/*Clips*/
 .links, .links2, .links3, .links4 {
 	padding: 0;
 	margin-bottom: 20px;
@@ -425,6 +435,25 @@ place-self: center;
 .container {
 	padding-top: 135px;
 }
+
+.ggrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	grid-template-areas:
+	"a b"
+}
+
+.graphic1 img{
+	width: 100%;
+	max-width: 400px;
+}
+
+.graphic2 img{
+	width: 100%;
+	max-width: 400px;
+}
+
 }
 
 @media screen and (min-width: 1000px) {
