@@ -27,7 +27,7 @@ h2 {
 
 h3 {
 	font-family: "Merriweather", Georgia, "Times New Roman", serif;
-	color: #000000;
+	color: #2A85A8;
 }
 
 h4 {
@@ -44,6 +44,7 @@ h4 {
 
 nav ul li {
     display: block;
+		padding: 6px;
   /*  border-top: 1px #1D5C75 solid;*/
 }
 
@@ -66,7 +67,8 @@ header {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-.containerG {
+.containerS {
+
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -80,15 +82,11 @@ nav ul {
     display: none;
 }
 
-nav ul li {
-    padding: 6px;
-}
-
 a:link, a:visited {
 		display: block;
 		color: #2A85A8;
     	text-decoration: none;
-   		font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+   		font-family: ".rriweather Sans", Helvetica, Arial, sans-serif;
 }
 
 a:hover, a:active {
@@ -96,14 +94,14 @@ a:hover, a:active {
 		font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 	}
 
-	.proudt a:link, a:visited {
+	.containerS a:link, a:visited {
 			display: block;
 			color: #2A85A8;
 	    	text-decoration: none;
 	   		font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 	}
 
-	.proudt a:hover, a:active {
+	.containerS a:hover, a:active {
 			color: #663a82;
 			font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 		}
@@ -122,7 +120,7 @@ a:hover, a:active {
 					font-style: italic;
 					font-size: 0.8em;
 					padding: 5px;
-					text-align: right;
+					text-align: left;
 					margin: 0;
 					}
 
@@ -161,18 +159,6 @@ a:hover, a:active {
 					.dropdown:hover .dropdown-content {
 					  display: block;
 					}
-
-
-/*Graphics*/
-.graphic1 img{
-	width: 100%;
-	max-width: 400px;
-}
-
-.graphic2 img{
-	width: 100%;
-	max-width: 400px;
-}
 
 /*Home photo*/
 
@@ -250,29 +236,6 @@ a:hover, a:active {
 
 
 
-/*image line*/
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding-top: 15px;
-  text-align: left;
-}
-
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-   .responsive {
-      display: none;
-   }
-
 
 /*Full-Screen*/
 
@@ -345,7 +308,7 @@ div.desc {
 			.section1 {
 				grid-area: a;
 			}
-
+/*clips with photos
 .proudt {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -380,11 +343,12 @@ div.desc {
 					grid-area: g;
 				}
 
-
+*/
 .container {
 	padding-top: 135px;
 }
 
+/*graphics*/
 .ggrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -402,10 +366,8 @@ div.desc {
 	width: 100%;
 	max-width: 400px;
 }
-
-
-
 }
+
 
 @media screen and (min-width: 1000px) {
 
@@ -415,7 +377,7 @@ div.desc {
 		margin: 0 auto;
 	}
 
-	.containerG {
+	.containerS {
 		width: 80%;
 		max-width: 1000px;
 		margin: 0 auto;
