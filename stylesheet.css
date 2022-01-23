@@ -217,6 +217,19 @@ a:hover, a:active {
 	margin-bottom: 20px;
 }
 
+/*photo gallery*/
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
 /*Clips*/
 .links, .links2, .links3, .links4 {
 	padding: 0;
@@ -308,6 +321,9 @@ a:hover, a:active {
 			.section1 {
 				grid-area: a;
 			}
+
+
+
 /*clips with photos
 .proudt {
 	display: grid;
